@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="dialloabd-Pc" name="questionnaire1.CommentaireControllerTests" tests="8" time="4.872" timestamp="2013-04-16T06:09:30">
+  <properties />
+  <testcase classname="questionnaire1.CommentaireControllerTests" name="testIndex" time="1.452" />
+  <testcase classname="questionnaire1.CommentaireControllerTests" name="testList" time="0.305" />
+  <testcase classname="questionnaire1.CommentaireControllerTests" name="testCreate" time="0.289" />
+  <testcase classname="questionnaire1.CommentaireControllerTests" name="testSave" time="1.207">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/commentaire/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@206fa7ec&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/commentaire/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@206fa7ec
+
+	at questionnaire1.CommentaireControllerTests.testSave(CommentaireControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="questionnaire1.CommentaireControllerTests" name="testShow" time="0.286">
+    <failure message="Assertion failed: &#xa;&#xa;assert commentaire.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Commentaire : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testShow(CommentaireControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="questionnaire1.CommentaireControllerTests" name="testEdit" time="0.202">
+    <failure message="Assertion failed: &#xa;&#xa;assert commentaire.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Commentaire : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testEdit(CommentaireControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="questionnaire1.CommentaireControllerTests" name="testUpdate" time="0.247">
+    <failure message="Assertion failed: &#xa;&#xa;assert commentaire.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Commentaire : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testUpdate(CommentaireControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="questionnaire1.CommentaireControllerTests" name="testDelete" time="0.264">
+    <failure message="Assertion failed: &#xa;&#xa;assert commentaire.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Commentaire : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testDelete(CommentaireControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

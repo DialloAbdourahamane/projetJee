@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="5" failures="0" hostname="dialloabd-Pc" name="questionnaire1.UserControllerTests" tests="9" time="9.052" timestamp="2013-04-16T06:09:21">
+  <properties />
+  <testcase classname="questionnaire1.UserControllerTests" name="testSimpleConstraints" time="4.048" />
+  <testcase classname="questionnaire1.UserControllerTests" name="testIndex" time="0.668" />
+  <testcase classname="questionnaire1.UserControllerTests" name="testList" time="0.403" />
+  <testcase classname="questionnaire1.UserControllerTests" name="testCreate" time="0.301" />
+  <testcase classname="questionnaire1.UserControllerTests" name="testSave" time="1.074">
+    <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testSave(UserControllerTests.groovy:56)
+</error>
+  </testcase>
+  <testcase classname="questionnaire1.UserControllerTests" name="testShow" time="0.832">
+    <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testShow(UserControllerTests.groovy:70)
+</error>
+  </testcase>
+  <testcase classname="questionnaire1.UserControllerTests" name="testEdit" time="0.378">
+    <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testEdit(UserControllerTests.groovy:88)
+</error>
+  </testcase>
+  <testcase classname="questionnaire1.UserControllerTests" name="testUpdate" time="0.36">
+    <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testUpdate(UserControllerTests.groovy:108)
+</error>
+  </testcase>
+  <testcase classname="questionnaire1.UserControllerTests" name="testDelete" time="0.323">
+    <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testDelete(UserControllerTests.groovy:152)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testSimpleConstraints--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSimpleConstraints--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

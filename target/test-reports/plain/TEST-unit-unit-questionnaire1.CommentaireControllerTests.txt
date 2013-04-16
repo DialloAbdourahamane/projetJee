@@ -1,0 +1,116 @@
+Testsuite: questionnaire1.CommentaireControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 4,872 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 1,452 sec
+Testcase: testList took 0,305 sec
+Testcase: testCreate took 0,289 sec
+Testcase: testSave took 1,207 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/commentaire/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@206fa7ec
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/commentaire/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@206fa7ec
+
+	at questionnaire1.CommentaireControllerTests.testSave(CommentaireControllerTests.groovy:48)
+
+Testcase: testShow took 0,285 sec
+	FAILED
+Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testShow(CommentaireControllerTests.groovy:62)
+
+Testcase: testEdit took 0,202 sec
+	FAILED
+Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testEdit(CommentaireControllerTests.groovy:80)
+
+Testcase: testUpdate took 0,247 sec
+	FAILED
+Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testUpdate(CommentaireControllerTests.groovy:100)
+
+Testcase: testDelete took 0,264 sec
+	FAILED
+Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testDelete(CommentaireControllerTests.groovy:144)
+

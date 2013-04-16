@@ -1,0 +1,59 @@
+Testsuite: questionnaire1.UserControllerTests
+Tests run: 9, Failures: 0, Errors: 5, Time elapsed: 9,052 sec
+------------- Standard Output ---------------
+--Output from testSimpleConstraints--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSimpleConstraints--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testSimpleConstraints took 4,048 sec
+Testcase: testIndex took 0,668 sec
+Testcase: testList took 0,403 sec
+Testcase: testCreate took 0,301 sec
+Testcase: testSave took 1,07 sec
+	Caused an ERROR
+No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testSave(UserControllerTests.groovy:56)
+
+Testcase: testShow took 0,812 sec
+	Caused an ERROR
+No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testShow(UserControllerTests.groovy:70)
+
+Testcase: testEdit took 0,363 sec
+	Caused an ERROR
+No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testEdit(UserControllerTests.groovy:88)
+
+Testcase: testUpdate took 0,356 sec
+	Caused an ERROR
+No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testUpdate(UserControllerTests.groovy:108)
+
+Testcase: testDelete took 0,32 sec
+	Caused an ERROR
+No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testDelete(UserControllerTests.groovy:152)
+

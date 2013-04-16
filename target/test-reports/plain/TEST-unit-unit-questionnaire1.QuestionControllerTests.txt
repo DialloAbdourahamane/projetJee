@@ -1,0 +1,116 @@
+Testsuite: questionnaire1.QuestionControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 2,262 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0,686 sec
+Testcase: testList took 0,086 sec
+Testcase: testCreate took 0,121 sec
+Testcase: testSave took 0,318 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/question/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@491f03e4
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/question/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@491f03e4
+
+	at questionnaire1.QuestionControllerTests.testSave(QuestionControllerTests.groovy:48)
+
+Testcase: testShow took 0,306 sec
+	FAILED
+Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+	at questionnaire1.QuestionControllerTests.testShow(QuestionControllerTests.groovy:62)
+
+Testcase: testEdit took 0,205 sec
+	FAILED
+Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+	at questionnaire1.QuestionControllerTests.testEdit(QuestionControllerTests.groovy:80)
+
+Testcase: testUpdate took 0,253 sec
+	FAILED
+Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+	at questionnaire1.QuestionControllerTests.testUpdate(QuestionControllerTests.groovy:100)
+
+Testcase: testDelete took 0,246 sec
+	FAILED
+Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+	at questionnaire1.QuestionControllerTests.testDelete(QuestionControllerTests.groovy:144)
+

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="5" hostname="dialloabd-Pc" id="0" name="CommentaireControllerTests" package="questionnaire1" tests="8" time="4.872" timestamp="2013-04-16T06:09:30">
+      <properties />
+
+      <testcase classname="questionnaire1.CommentaireControllerTests" name="testIndex" time="1.452" />
+
+      <testcase classname="questionnaire1.CommentaireControllerTests" name="testList" time="0.305" />
+
+      <testcase classname="questionnaire1.CommentaireControllerTests" name="testCreate" time="0.289" />
+
+      <testcase classname="questionnaire1.CommentaireControllerTests" name="testSave" time="1.207">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/commentaire/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@206fa7ec&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/commentaire/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@206fa7ec
+
+	at questionnaire1.CommentaireControllerTests.testSave(CommentaireControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.CommentaireControllerTests" name="testShow" time="0.286">
+          <failure message="Assertion failed: &#xa;&#xa;assert commentaire.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Commentaire : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testShow(CommentaireControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.CommentaireControllerTests" name="testEdit" time="0.202">
+          <failure message="Assertion failed: &#xa;&#xa;assert commentaire.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Commentaire : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testEdit(CommentaireControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.CommentaireControllerTests" name="testUpdate" time="0.247">
+          <failure message="Assertion failed: &#xa;&#xa;assert commentaire.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Commentaire : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testUpdate(CommentaireControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.CommentaireControllerTests" name="testDelete" time="0.264">
+          <failure message="Assertion failed: &#xa;&#xa;assert commentaire.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Commentaire : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert commentaire.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Commentaire : null
+
+	at questionnaire1.CommentaireControllerTests.testDelete(CommentaireControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="dialloabd-Pc" id="1" name="PropositionControllerTests" package="questionnaire1" tests="8" time="2.617" timestamp="2013-04-16T06:09:38">
+      <properties />
+
+      <testcase classname="questionnaire1.PropositionControllerTests" name="testIndex" time="0.873" />
+
+      <testcase classname="questionnaire1.PropositionControllerTests" name="testList" time="0.15" />
+
+      <testcase classname="questionnaire1.PropositionControllerTests" name="testCreate" time="0.141" />
+
+      <testcase classname="questionnaire1.PropositionControllerTests" name="testSave" time="0.211">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/proposition/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2bf75442&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/proposition/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2bf75442
+
+	at questionnaire1.PropositionControllerTests.testSave(PropositionControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.PropositionControllerTests" name="testShow" time="0.265">
+          <failure message="Assertion failed: &#xa;&#xa;assert proposition.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Proposition : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert proposition.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Proposition : null
+
+	at questionnaire1.PropositionControllerTests.testShow(PropositionControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.PropositionControllerTests" name="testEdit" time="0.158">
+          <failure message="Assertion failed: &#xa;&#xa;assert proposition.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Proposition : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert proposition.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Proposition : null
+
+	at questionnaire1.PropositionControllerTests.testEdit(PropositionControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.PropositionControllerTests" name="testUpdate" time="0.118">
+          <failure message="Assertion failed: &#xa;&#xa;assert proposition.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Proposition : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert proposition.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Proposition : null
+
+	at questionnaire1.PropositionControllerTests.testUpdate(PropositionControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.PropositionControllerTests" name="testDelete" time="0.155">
+          <failure message="Assertion failed: &#xa;&#xa;assert proposition.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       questionnaire1.Proposition : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert proposition.save() != null
+       |           |      |
+       |           null   false
+       questionnaire1.Proposition : null
+
+	at questionnaire1.PropositionControllerTests.testDelete(PropositionControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="dialloabd-Pc" id="2" name="QuestionControllerTests" package="questionnaire1" tests="8" time="2.262" timestamp="2013-04-16T06:09:41">
+      <properties />
+
+      <testcase classname="questionnaire1.QuestionControllerTests" name="testIndex" time="0.686" />
+
+      <testcase classname="questionnaire1.QuestionControllerTests" name="testList" time="0.086" />
+
+      <testcase classname="questionnaire1.QuestionControllerTests" name="testCreate" time="0.121" />
+
+      <testcase classname="questionnaire1.QuestionControllerTests" name="testSave" time="0.318">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/question/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@491f03e4&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/question/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@491f03e4
+
+	at questionnaire1.QuestionControllerTests.testSave(QuestionControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.QuestionControllerTests" name="testShow" time="0.306">
+          <failure message="Assertion failed: &#xa;&#xa;assert question.save() != null&#xa;       |        |      |&#xa;       |        null   false&#xa;       questionnaire1.Question : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+	at questionnaire1.QuestionControllerTests.testShow(QuestionControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.QuestionControllerTests" name="testEdit" time="0.205">
+          <failure message="Assertion failed: &#xa;&#xa;assert question.save() != null&#xa;       |        |      |&#xa;       |        null   false&#xa;       questionnaire1.Question : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+	at questionnaire1.QuestionControllerTests.testEdit(QuestionControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.QuestionControllerTests" name="testUpdate" time="0.253">
+          <failure message="Assertion failed: &#xa;&#xa;assert question.save() != null&#xa;       |        |      |&#xa;       |        null   false&#xa;       questionnaire1.Question : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+	at questionnaire1.QuestionControllerTests.testUpdate(QuestionControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.QuestionControllerTests" name="testDelete" time="0.246">
+          <failure message="Assertion failed: &#xa;&#xa;assert question.save() != null&#xa;       |        |      |&#xa;       |        null   false&#xa;       questionnaire1.Question : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert question.save() != null
+       |        |      |
+       |        null   false
+       questionnaire1.Question : null
+
+	at questionnaire1.QuestionControllerTests.testDelete(QuestionControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="dialloabd-Pc" id="3" name="ReponseControllerTests" package="questionnaire1" tests="8" time="3.387" timestamp="2013-04-16T06:09:35">
+      <properties />
+
+      <testcase classname="questionnaire1.ReponseControllerTests" name="testIndex" time="1.175" />
+
+      <testcase classname="questionnaire1.ReponseControllerTests" name="testList" time="0.214" />
+
+      <testcase classname="questionnaire1.ReponseControllerTests" name="testCreate" time="0.179" />
+
+      <testcase classname="questionnaire1.ReponseControllerTests" name="testSave" time="0.243">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/reponse/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@771c7eb2&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/reponse/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@771c7eb2
+
+	at questionnaire1.ReponseControllerTests.testSave(ReponseControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.ReponseControllerTests" name="testShow" time="0.355">
+          <failure message="Assertion failed: &#xa;&#xa;assert reponse.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       questionnaire1.Reponse : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert reponse.save() != null
+       |       |      |
+       |       null   false
+       questionnaire1.Reponse : null
+
+	at questionnaire1.ReponseControllerTests.testShow(ReponseControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.ReponseControllerTests" name="testEdit" time="0.209">
+          <failure message="Assertion failed: &#xa;&#xa;assert reponse.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       questionnaire1.Reponse : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert reponse.save() != null
+       |       |      |
+       |       null   false
+       questionnaire1.Reponse : null
+
+	at questionnaire1.ReponseControllerTests.testEdit(ReponseControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.ReponseControllerTests" name="testUpdate" time="0.216">
+          <failure message="Assertion failed: &#xa;&#xa;assert reponse.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       questionnaire1.Reponse : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert reponse.save() != null
+       |       |      |
+       |       null   false
+       questionnaire1.Reponse : null
+
+	at questionnaire1.ReponseControllerTests.testUpdate(ReponseControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.ReponseControllerTests" name="testDelete" time="0.281">
+          <failure message="Assertion failed: &#xa;&#xa;assert reponse.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       questionnaire1.Reponse : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert reponse.save() != null
+       |       |      |
+       |       null   false
+       questionnaire1.Reponse : null
+
+	at questionnaire1.ReponseControllerTests.testDelete(ReponseControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="5" failures="0" hostname="dialloabd-Pc" id="4" name="UserControllerTests" package="questionnaire1" tests="9" time="9.052" timestamp="2013-04-16T06:09:21">
+      <properties />
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testSimpleConstraints" time="4.048" />
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testIndex" time="0.668" />
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testList" time="0.403" />
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testCreate" time="0.301" />
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testSave" time="1.074">
+          <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testSave(UserControllerTests.groovy:56)
+</error>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testShow" time="0.832">
+          <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testShow(UserControllerTests.groovy:70)
+</error>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testEdit" time="0.378">
+          <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testEdit(UserControllerTests.groovy:88)
+</error>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testUpdate" time="0.36">
+          <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testUpdate(UserControllerTests.groovy:108)
+</error>
+
+      </testcase>
+
+      <testcase classname="questionnaire1.UserControllerTests" name="testDelete" time="0.323">
+          <error message="No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: questionnaire1.UserControllerTests.populateValidParams() is applicable for argument types: (org.codehaus.groovy.grails.web.servlet.mvc.GrailsParameterMap) values: [[:]]
+	at questionnaire1.UserControllerTests.testDelete(UserControllerTests.groovy:152)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSimpleConstraints--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSimpleConstraints--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
