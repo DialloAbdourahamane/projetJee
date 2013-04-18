@@ -56,7 +56,7 @@
 				
 					<div><!-- bouton d'ouverture -->
 						<g:form  action="ouvrir_fermer" id="${questionInstance?.id}">
-							 <input type = "submit" value="${flash.state}" >
+							 <input type = "submit" value="${state}" >
 						</g:form>
 				</div>
 			
