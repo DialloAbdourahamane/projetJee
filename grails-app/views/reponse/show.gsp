@@ -23,6 +23,7 @@
 			</g:if>
 			<ol class="property-list reponse">
 			
+                          
 				<g:if test="${reponseInstance?.user}">
 				<li class="fieldcontain">
 					<span id="user-label" class="property-label"><g:message code="reponse.user.label" default="User" /></span>

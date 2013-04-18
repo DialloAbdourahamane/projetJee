@@ -5,7 +5,7 @@ import org.springframework.dao.DataIntegrityViolationException
 class QuestionController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
-    Map<String,Integer> m=new HashMap<String,Integer>();
+    
     
     def index() {
         redirect(action: "list", params: params)
@@ -177,7 +177,7 @@ class QuestionController {
     
     def afficheResultat(Long id){
         
-        
+        def m = [:]
         Question q=Question.get(id)
        
         //render q.id
@@ -195,9 +195,12 @@ class QuestionController {
                 m.put(valPropos,new Integer(1)) 
             }
             
+           
             
             //valPropos=reponse.propostion.nom+"</br>"
         }
+        
+        //render m.toString()
         //render m;
        // String s="</br>"
        // for (String str:m.entrySet()){
@@ -206,12 +209,26 @@ class QuestionController {
         //}
         
       //  render s
-        
+        flash.m = m
         //render "Voici le resultat"+ids
-         redirect(action: "afficheChart")
+        redirect(action: "afficheChart")
+        //return 
     }
     
     def afficheChart(){
         
+        //def liste  = [['Work', 11], ['Eat', 2], ['Commute', 2], ['Watch TV', 2], ['Sleep', 7]]
+        def m = flash.m
+        //m["rap 1"]=11
+        //m["rap 2"]=12
+        def myTab=[]
+        m.keySet().each{
+        
+              myTab << [it,m[it]]
+        }
+        
+        println myTab
+        [myTab : myTab]
+        //[myid:"4"]
     }
 }

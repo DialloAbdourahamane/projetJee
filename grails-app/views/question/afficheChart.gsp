@@ -12,17 +12,18 @@
                 -->
                 </head>
 	<body>
+          ${m}
           <div style="margin-left: 220px">
             <%
               def myDailyActivitiesColumns = [['string', 'Propositions'], ['number', 'Nb Etudiants ayant repondu']]
-              def myDailyActivitiesData = [['Work', 11], ['Eat', 2], ['Commute', 2], ['Watch TV', 2], ['Sleep', 7]]
+              def myDailyActivitiesData = myTab
             %>
           
    
        
        
        <h2>Les resultats des reponses des etudiants </h2>
-       <gvisualization:pieCoreChart elementId="piechart" title="My Daily Activities" width="${450}" height="${300}" columns="${myDailyActivitiesColumns}" data="${myDailyActivitiesData}" />
+       <gvisualization:pieCoreChart elementId="piechart" title="Diagrammes des resultats des etudiants" width="${450}" height="${300}" columns="${myDailyActivitiesColumns}" data="${myDailyActivitiesData}" />
             
         <div id="piechart"></div>
         </div>
